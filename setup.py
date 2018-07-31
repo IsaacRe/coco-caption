@@ -1,8 +1,8 @@
 from distutils.core import setup
 
-setup(name='pycocotoolscap',
-      packages=['pycocotoolscap'],
-      package_dir = {'pycocotoolscap': 'pycocotoolscap'},
+setup(name='pycocotools',
+      packages=['pycocotools'],
+      package_dir = {'pycocotools': 'pycocotoolscap'},
       version='1.0'
       )
 
