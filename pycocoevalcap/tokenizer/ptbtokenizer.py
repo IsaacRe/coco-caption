@@ -15,8 +15,7 @@ import tempfile
 import itertools
 
 # path to the stanford corenlp jar
-# using absolute path necessary if we are installing the package to site-packages (~/ won't work)
-STANFORD_CORENLP_3_4_1_JAR = '/home/AD/irehg/coco-caption/pycocoevalcap/tokenizer/stanford-corenlp-3.4.1.jar'
+STANFORD_CORENLP_3_4_1_JAR = 'stanford-corenlp-3.4.1.jar'
 
 # punctuations to be removed from the sentences
 PUNCTUATIONS = ["''", "'", "``", "`", "-LRB-", "-RRB-", "-LCB-", "-RCB-", \
